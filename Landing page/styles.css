@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFF00; /* Color de fondo amarillo */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin-top: 5%;
+}
+img {
+    display: block;
+    margin: 0 auto; /* Opcional: centra las imágenes horizontalmente */
+}
+/* Estilos Opcionales Súper Minimalistas para el botón */
+.mi-boton {
+    display: inline-block; /* Para que respete el padding y margin */
+    padding: 10px 20px;    /* Espacio interno para que parezca botón */
+    background-color: #c300ff; /* Un color de fondo azul, por ejemplo */
+    color: white;             /* Texto blanco */
+    text-decoration: none;    /* Quitar el subrayado del enlace */
+    border: none;             /* Quitar borde si lo tuviera por defecto */
+    border-radius: 5px;       /* Bordes redondeados (opcional) */
+    cursor: pointer;          /* Cambia el cursor a una manita */
+    font-family: sans-serif;  /* Una fuente genérica simple */
+}
+img {
+    max-width: 80%; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;   /* Mantiene la proporción */
+    margin-bottom: 20px; /* Espacio debajo de la imagen */
+}
